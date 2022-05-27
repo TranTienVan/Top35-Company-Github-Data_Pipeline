@@ -1,0 +1,84 @@
+database:
+    - table:
+    user 
+    repository 
+    commit    
+    license
+
+    repository_tag
+    repository_contributor
+    repository_programming_language
+    repository_activity
+
+    - view:
+    company_person
+
+
+reference:
+
+
+
+top company open source: https://www.datamation.com/open-source/35-top-open-source-companies/
+
+
+all commit: https://docs.github.com/en/rest/commits/commits
+
+list collaborator: https://docs.github.com/en/rest/collaborators/collaborators#list-repository-collaborators
+
+
+list all contributor repo: https://stackoverflow.com/questions/35455441/listing-all-collaborators-of-github-repository
+
+
+there are 35 companies
+
+1 company has many persons
+1 company has many repositories
+1 repository has many commit
+1 repository has many programming language
+1 commit is contributed by 1 person
+
+
+id,
+type,
+name,
+company,
+blog,
+location,
+email,
+public_repos,
+followers,
+following
+created_at
+updated_at
+
+USER table
+
+
+api:
+
+repo: https://api.github.com/repos/google/leveldb
+
+repo-commit: https://api.github.com/repos/google/guava/commits
+
+repo-contributor: https://api.github.com/repos/google/guava/contributors
+
+repo-language: https://api.github.com/repos/google/guava/languages
+
+repo-tag: https://api.github.com/repos/google/leveldb/tags
+
+organization-repo: 
+
+
+organization, user: https://api.github.com/orgs/google, https://api.github.com/users/google
+
+organization-members: https://api.github.com/orgs/google/members
+
+license: https://api.github.com/licenses/agpl-3.0
+
+analysis:
+count number of members, repository, commit for each organization
+count number of commit, contributor, languages, tags for each repository
+count number of commits, repository joined for each users
+count number of repository used for each license
+count number of used for each language
+count number of activity for each repository today

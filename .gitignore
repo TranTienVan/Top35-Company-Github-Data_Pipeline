@@ -1,0 +1,10 @@
+__pycache__
+.env
+airflow/dags/config
+airflow/logs
+airflow/plugins
+dbt-airflow-docker-compose
+target/
+dbt_modules/
+logs/
+*.csv

@@ -1,0 +1,103 @@
+
+version: 2
+sources:
+  - name: github_profile
+    #For bigquery:
+    #database: taxi-rides-ny-339813
+
+    # For postgres:
+    database: postgres
+
+    schema: public
+
+    # loaded_at_field: record_loaded_at
+    tables:
+      - name: USER
+      - name: LICENSE
+      - name: ORGANIZATION_MEMBER
+      - name: REPOSITORY
+      - name: COMMIT
+      - name: REPOSITORY_LANGUAGE
+      - name: REPOSITORY_TAG
+      - name: REPOSITORY_ACTIVITY
+
+models:
+  - name: activity_analysis
+    description: "A starter dbt model"
+    columns:
+      - name: repository_id
+        description: repository_id
+      - name: date
+        description: date
+      - name: number_of_activities
+        description: number_of_activities
+
+  - name: language_analysis
+    description: "A starter dbt model"
+    columns:
+      - name: language
+        description: language
+      - name: number_of_used
+        description: number_of_used
+      - name: number_of_repositories
+        description: number_of_repositories
+
+  - name: license_analysis
+    description: "A starter dbt model"
+    columns:
+      - name: key
+        description: key
+      - name: name
+        description: name
+      - name: number_of_repositories
+        description: number_of_repositories
+
+  - name: organization_analysis
+    description: "A starter dbt model"
+    columns:
+      - name: name
+        description: name
+      - name: html_url
+        description: html_url
+      - name: blog
+        description: blog
+      - name: location
+        description: location
+      - name: number_of_members
+        description: number_of_members
+      - name: number_of_repositories
+        description: number_of_repositories
+    
+  - name: repository_analysis
+    description: "A starter dbt model"
+    columns:
+      - name: name
+        description: name
+      - name: full_name
+        description: full_name
+      - name: html_url
+        description: html_url
+      - name: number_of_commits
+        description: number_of_commits
+      - name: number_of_contributors
+        description: number_of_contributors
+      - name: number_of_languages
+        description: number_of_languages
+      - name: number_of_tags
+        description: number_of_tags
+
+  - name: user_repository_analysis
+    description: "A starter dbt model"
+    columns:
+      - name: name
+        description: name
+      - name: html_url
+        description: html_url
+      - name: blog
+        description: blog
+      - name: location
+        description: location
+      - name: number_of_commits
+        description: number_of_commits
+      - name: number_of_repositories
+        description: number_of_repositories      

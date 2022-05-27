@@ -1,0 +1,58 @@
+{
+    "sha": "7581939985e53d0048d3a93cd7ca4652a99e8b08",
+    "node_id": "C_kwDOATXBkdoAKDc1ODE5Mzk5ODVlNTNkMDA0OGQzYTkzY2Q3Y2E0NjUyYTk5ZThiMDg",
+    "commit": {
+        "author": {
+            "name": "Nick Glorioso",
+            "email": "glorioso@google.com",
+            "date": "2022-05-17T17:38:06Z"
+        },
+        "committer": {
+            "name": "Google Java Core Libraries",
+            "email": "java-core-libraries-team+copybara@google.com",
+            "date": "2022-05-17T17:40:57Z"
+        },
+        "message": "Improve the performance of Hashing's toString computation.\n\nPiperOrigin-RevId: 449257918",
+        "tree": {
+            "sha": "d18c0c28774b7df4a03658492d760ca7cc7400ca",
+            "url": "https://api.github.com/repos/google/guava/git/trees/d18c0c28774b7df4a03658492d760ca7cc7400ca"
+        },
+        "url": "https://api.github.com/repos/google/guava/git/commits/7581939985e53d0048d3a93cd7ca4652a99e8b08",
+        "comment_count": 0,
+        "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": "None",
+            "payload": "None"
+        }
+    },
+    "url": "https://api.github.com/repos/google/guava/commits/7581939985e53d0048d3a93cd7ca4652a99e8b08",
+    "html_url": "https://github.com/google/guava/commit/7581939985e53d0048d3a93cd7ca4652a99e8b08",
+    "comments_url": "https://api.github.com/repos/google/guava/commits/7581939985e53d0048d3a93cd7ca4652a99e8b08/comments",
+    "author": {
+        "login": "nick-someone",
+        "id": 565601,
+        "node_id": "MDQ6VXNlcjU2NTYwMQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/565601?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nick-someone",
+        "html_url": "https://github.com/nick-someone",
+        "followers_url": "https://api.github.com/users/nick-someone/followers",
+        "following_url": "https://api.github.com/users/nick-someone/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nick-someone/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nick-someone/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nick-someone/subscriptions",
+        "organizations_url": "https://api.github.com/users/nick-someone/orgs",
+        "repos_url": "https://api.github.com/users/nick-someone/repos",
+        "events_url": "https://api.github.com/users/nick-someone/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nick-someone/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "committer": "None",
+    "parents": [{
+        "sha": "9303eb2115f3be584c1efba78b39055f098be0f8",
+        "url": "https://api.github.com/repos/google/guava/commits/9303eb2115f3be584c1efba78b39055f098be0f8",
+        "html_url": "https://github.com/google/guava/commit/9303eb2115f3be584c1efba78b39055f098be0f8"
+    }]
+}

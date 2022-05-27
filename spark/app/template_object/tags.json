@@ -1,0 +1,10 @@
+{
+    "name": "v1.20",
+    "zipball_url": "https://api.github.com/repos/google/leveldb/zipball/refs/tags/v1.20",
+    "tarball_url": "https://api.github.com/repos/google/leveldb/tarball/refs/tags/v1.20",
+    "commit": {
+        "sha": "a53934a3ae1244679f812d998a4f16f2c7f309a6",
+        "url": "https://api.github.com/repos/google/leveldb/commits/a53934a3ae1244679f812d998a4f16f2c7f309a6"
+    },
+    "node_id": "MDM6UmVmMjM0MDU3NTg6cmVmcy90YWdzL3YxLjIw"
+}
